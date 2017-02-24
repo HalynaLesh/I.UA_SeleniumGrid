@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+
+	<parameters>
+		<parameter name="platform" value="Windows" />
+		<parameter name="browserName" value="chrome" />
+		<parameter name="version" value="10" />
+		<parameter name="remouteURL" value="http://192.168.93.1:5555/wd/hub" />
+	</parameters>
+
+	<test name="MainPage">
+		<classes>
+			<class name="eleks.com.pages_tests.MainPage_Test" />
+		</classes>
+	</test>
+<!-- 	<test name="MailBoxPage">
+		<classes>
+			<class name="eleks.com.pages_tests.MailBoxPage_Test" />
+		</classes>
+	</test>
+	<test name="CreateEmailPage">
+		<classes>
+			<class name="eleks.com.pages_tests.CreateEmailPage_Test" />
+		</classes>
+	</test>
+	<test name="SuccessSendMailPage">
+		<classes>
+			<class name="eleks.com.pages_tests.SuccessSendMailPage_Test" />
+		</classes>
+	</test>
+	<test name="SentEmailsPage">
+		<classes>
+			<class name="eleks.com.pages_tests.SentEmailsPage_Test" />
+		</classes>
+	</test> -->
+
+</suite> <!-- Suite -->

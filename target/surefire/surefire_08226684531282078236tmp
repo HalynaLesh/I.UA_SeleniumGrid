@@ -1,0 +1,10 @@
+#surefire_0
+#Wed Feb 01 12:11:43 EET 2017
+platform=WIN7
+remouteURL=http\://192.168.174.129\:5556/wd/hub
+browser=chrome
+user.dir=C\:\\AutomationTesting\\IUA_DemoOK_SeleniumGrid\\IUA_Demo_SeleniumGrid
+localRepository=C\:\\Users\\Halyna.Leshchyshyn\\.m2\\repository
+testNG=testNG
+browserName=chrome
+basedir=C\:\\AutomationTesting\\IUA_DemoOK_SeleniumGrid\\IUA_Demo_SeleniumGrid

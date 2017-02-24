@@ -1,0 +1,10 @@
+#surefire_0
+#Wed Feb 01 12:11:35 EET 2017
+platform=WIN10
+remouteURL=http\://192.168.93.1\:5555/wd/hub
+browser=firefox
+user.dir=C\:\\AutomationTesting\\IUA_DemoOK_SeleniumGrid\\IUA_Demo_SeleniumGrid
+localRepository=C\:\\Users\\Halyna.Leshchyshyn\\.m2\\repository
+testNG=testNG
+browserName=firefox
+basedir=C\:\\AutomationTesting\\IUA_DemoOK_SeleniumGrid\\IUA_Demo_SeleniumGrid

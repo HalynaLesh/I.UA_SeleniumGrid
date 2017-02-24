@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="MainPage(failed)">
+    <classes>
+      <class name="eleks.com.pages_tests.MainPage_Test">
+        <methods>
+          <include name="positive_loginAs_test"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="negative_loginAs_test"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MainPage_Test -->
+      <class name="eleks.com.pages_tests.CreateEmailPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.CreateEmailPage_Test -->
+      <class name="eleks.com.pages_tests.SentEmailsPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="getExtentReport"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SentEmailsPage_Test -->
+      <class name="eleks.com.pages_tests.MailBoxPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MailBoxPage_Test -->
+      <class name="eleks.com.pages_tests.SuccessSendMailPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SuccessSendMailPage_Test -->
+    </classes>
+  </test> <!-- MainPage(failed) -->
+  <test name="MailBoxPage(failed)">
+    <classes>
+      <class name="eleks.com.pages_tests.MainPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MainPage_Test -->
+      <class name="eleks.com.pages_tests.CreateEmailPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.CreateEmailPage_Test -->
+      <class name="eleks.com.pages_tests.SentEmailsPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="getExtentReport"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SentEmailsPage_Test -->
+      <class name="eleks.com.pages_tests.MailBoxPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="logout_test"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MailBoxPage_Test -->
+      <class name="eleks.com.pages_tests.SuccessSendMailPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SuccessSendMailPage_Test -->
+    </classes>
+  </test> <!-- MailBoxPage(failed) -->
+  <test name="SentEmailsPage(failed)">
+    <classes>
+      <class name="eleks.com.pages_tests.MainPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MainPage_Test -->
+      <class name="eleks.com.pages_tests.CreateEmailPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.CreateEmailPage_Test -->
+      <class name="eleks.com.pages_tests.SentEmailsPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="negative_verifyEmailContent_test"/>
+          <include name="setUp"/>
+          <include name="getExtentReport"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="negative_verifySubject_test"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SentEmailsPage_Test -->
+      <class name="eleks.com.pages_tests.MailBoxPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MailBoxPage_Test -->
+      <class name="eleks.com.pages_tests.SuccessSendMailPage_Test">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.SuccessSendMailPage_Test -->
+    </classes>
+  </test> <!-- SentEmailsPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

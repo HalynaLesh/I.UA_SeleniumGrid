@@ -1,0 +1,6 @@
+eleks\com\pages_tests\CreateEmailPage_Test.class
+eleks\com\pages_tests\MailBoxPage_Test.class
+eleks\com\pages_tests\SentEmailsPage_Test.class
+eleks\com\pages_tests\SuccessSendMailPage_Test.class
+eleks\com\pages_tests\BasePage_Test.class
+eleks\com\pages_tests\MainPage_Test.class

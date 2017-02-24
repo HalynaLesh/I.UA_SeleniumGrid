@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="version" value="10"/>
+  <parameter name="platform" value="Windows"/>
+  <parameter name="remouteURL" value="http://192.168.93.1:5555/wd/hub"/>
+  <test name="MainPage(failed)">
+    <classes>
+      <class name="eleks.com.pages_tests.MainPage_Test">
+        <methods>
+          <include name="positive_loginAs_test"/>
+          <include name="setUp"/>
+          <include name="getExtentReport"/>
+          <include name="isMainPageOpened_test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- eleks.com.pages_tests.MainPage_Test -->
+    </classes>
+  </test> <!-- MainPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

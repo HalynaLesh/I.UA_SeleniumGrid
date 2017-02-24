@@ -1,0 +1,12 @@
+eleks\com\EmailBuilder\IEmailBuilder.class
+eleks\com\pages\BasePage.class
+eleks\com\pages\SentEmailsPage.class
+eleks\com\pages\MainPage.class
+eleks\com\EmailBuilder\EmailBuilder.class
+eleks\com\core\GridWebDriver.class
+eleks\com\pages\MailBoxPage.class
+eleks\com\pages\SuccessSendMailPage.class
+eleks\com\core\ConfigProperties.class
+eleks\com\EmailBuilder\Email.class
+eleks\com\pages\CreateMailPage.class
+eleks\com\core\ConnectMySQL.class
